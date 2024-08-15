@@ -1,0 +1,124 @@
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  
+}
+/* background-color for all page*/
+body,header{
+  background-color: white;
+
+ /* Styling the about us link */
+ .abt{
+      border: 1px none red;
+     background-color :  #158cff;
+     
+ } 
+ }
+ /* first header styling code*/
+.h1{
+     background-color: #95f5ff;
+     color: whitesmoke;
+     padding-left: 20px;
+     color: #333;
+     border: 1px none red;
+     display: flex ;
+     flex-wrap: wrap;
+     justify-content: space-evenly ;
+     align-items: center ;
+}
+/* For smooth scrolling */
+html{scroll-behavior:smooth;}
+
+/* Styling the ul */
+.list{
+     text-align: right;
+     background-color: #95f5ff;
+     
+} 
+/* Styling the list elements(links)*/
+li{
+     display: inline-block;
+     padding-right: 10px;
+     
+}
+/* I  don't even know where this is*/
+img{background: ;
+     position: relative ;
+     top:2px;
+     right: 20px;
+     
+}
+/* styling all anchor tags */
+a{
+     color: blue;
+     text-decoration: none;
+}
+/* Resizing the table */
+table{
+     table-layout: fixed;
+     border-collapse: collapse;
+     position :relative ;
+     left: 5px;
+     width: 350px
+     
+}
+/* Making the td and tr  go in the center*/
+th{
+     padding: 7px 7px 7px 7px;
+     font-size: 1.5rem;
+}  
+
+
+tr,td{
+  text-align: center;
+}
+tr:nth-child(odd){
+  background-color: grey;
+}
+tr:nth-child(even){
+  background-color: lightgray;
+}
+
+/* Styling the table caption */
+.header2{
+       position:sticky ;
+      display: inline-block ;
+      text-decoration: none;
+      font-size:2rem ;
+      
+      
+}
+/* similar header with .header2*/
+.header{
+     
+     border: 2px solid black;
+     height: 5vh;
+     background-color: gold ;     
+/* Table headers*/
+.head{
+     background-color:#9a9a9a;
+}
+.new{
+     background-color: #e2e2e2;
+}
+/* styling the images which have a position error */
+
+}
+/* styling the  icons */
+
+.list1{
+     list-style-type: none;
+}
+/* To move my items with flex*/
+.copyright{
+     border: 1px none red;
+     display:flex ;
+     justify-content:center;
+     align-items: space-evenly ; 
+}
+.image{
+     display:flex ;
+     justify-content : space-evenly 
+     align-items: space-evenly ;
+}
